@@ -1,1 +1,1 @@
-# DariaFront-2.0
+# DariaFront-2
