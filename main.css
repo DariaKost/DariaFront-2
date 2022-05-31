@@ -1,14 +1,14 @@
 .body {
-    background-color: black;
+    background-color: rgb(9, 135, 116);
 }
-.a {
+.red {
     color: red;
 }
 .more {
-    background-color: blue;
+    background-color: rgb(75, 75, 219);
 }
 p {
-    color: black;
+    color: rgb(211, 236, 72);
 }
 .zaz{
     color: rgb(251, 0, 255);
