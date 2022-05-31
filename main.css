@@ -4,13 +4,12 @@
 .a {
     color: red;
 }
-
-.a .more {
+.more {
     background-color: blue;
 }
 p {
-    color:white;
+    color: black;
 }
 .zaz{
-    color:rgb(251, 0, 255)
+    color: rgb(251, 0, 255);
 }
