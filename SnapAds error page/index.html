@@ -33,9 +33,9 @@
                     <div class="content__body">
                         <div class="content__title">Error 404</div>
                         <div class="content__text">Ooops... It seems that this page does not exist 😔</div>
-                        <div class="content__btn">
-                            <a class="content__a" href="#">Return to main page</a>
-                        </div>
+                        
+                            <a class="content__btn" href="#">Return to main page</a>
+                        
                     </div>
 
                 </div>
@@ -132,6 +132,9 @@
             font-size: inherit;
             font-weight: 400;
         }
+        body {
+            background-color: #F5F5F5;
+        }
 
         .header__wrapper {
             background-color: #FFFFFF;
@@ -159,7 +162,7 @@
         .content__img {
             position: absolute;
             right: 0%;
-            top: -12%;
+            top: -14%;
             width: 42%;
         }
 
@@ -175,7 +178,7 @@
             -ms-flex-align: center;
             align-items: center;
             text-align: center;
-            padding: 170px 0;
+            margin: 135px 0;
         }
 
         .content__title {
@@ -216,11 +219,13 @@
             -webkit-box-align: center;
             -ms-flex-align: center;
             align-items: center;
-        }
-
-        .content__a {
             color: white;
             text-decoration: none;
+            z-index: 2;
         }
+        .content__btn:hover{
+          background-color:  #1126B6;
+        }
+       
     </style>
 </body>
